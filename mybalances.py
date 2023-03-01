@@ -1,7 +1,6 @@
 import pyupbit as ub
-
-access_key = 'FbdBmi4CAlxxZ3SJdqUPd78P8gFAX7ccf5wpAjtc'
-secret_key = '2zZtSF6pfkMHs6Rax1OPTwxS60JJmgxtCAUcJXyx'
+from api_key import access_key
+from api_key import secret_key
 
 upbit = ub.Upbit(access=access_key, secret=secret_key)
 
